@@ -1,4 +1,4 @@
-# Análisis de Sentimiento de Tweets sobre el Municipio
+# Análisis de Sentimiento de Tweets sobre el Municipio de Vicente López
 
 ## **Objetivo**
 El objetivo de este proyecto es analizar las respuestas a los tweets del municipio para identificar y comprender las críticas negativas de los ciudadanos. Utilizando técnicas de Procesamiento de Lenguaje Natural (NLP) y modelado de temas, se busca extraer información que permita mejorar la gestión y la respuesta a los ciudadanos.
@@ -11,30 +11,26 @@ El objetivo de este proyecto es analizar las respuestas a los tweets del municip
 - **Visualización:** Crear visualizaciones para mostrar las tendencias de críticas negativas a lo largo del tiempo y las palabras más comunes en los tweets.
 
 ## **Conclusiones**
-- **Identificación de problemas comunes:** El análisis de sentimiento y el modelado de temas permitieron identificar los principales problemas y preocupaciones de los ciudadanos. Por ejemplo, temas recurrentes como  impuestos, fumigación, iluminaria y limpieza fueron destacados en los tweets negativos.
-- **Resultados:** Considerando que este anàlisis se hizo con aproximadamente 300 tweets se obtuvo un buen desarrollo y anàlisis pero logicamente cuanto mas datos haya mejor resultado vas a poder obtener.
+- El análisis de sentimiento y el modelado de temas permitieron identificar los principales problemas y preocupaciones de los ciudadanos. Por ejemplo, temas recurrentes como  impuestos, fumigación, iluminaria y limpieza fueron destacados en los tweets negativos.
+- Considerando que este anàlisis se hizo con aproximadamente 300 tweets se obtuvo un buen desarrollo y anàlisis pero logicamente cuanto mas datos haya mejor resultado vas a poder obtener.
 ---
 
 # Análisis de Calidad del Agua del Río de la Plata
 
 ## **Objetivo**
-El objetivo de este proyecto es analizar los datos de calidad del agua del Río de la Plata para predecir mediante modelos como regresiòn logistica y arboles de decisiones el Indice de calidad del agua (ICA). El análisis se enfoca en diversos parámetros físicos, químicos y biológicos.
+El objetivo de este proyecto es analizar los datos de calidad del agua del Río de la Plata para predecir mediante modelos como regresión logistica y árboles de decisiones el Indice de calidad del agua (ICA). El análisis se enfoca en diversos parámetros físicos, químicos y biológicos.
 
 ## **Alcance**
 - **Recopilación de datos:** Utilizar datos recopilados de la pagina oficial del CIAM (Centro de informaciòn ambiental) para el analisis.
 - **Limpieza y preprocesamiento de datos:** Convertir columnas con valores numéricos almacenados como texto a formatos numéricos. Manejar valores especiales como "<0.005" o ">0.5".
-- **Análisis descriptivo:** Generar estadísticas descriptivas y visualizaciones para cada parámetro de calidad del agua.
-- **Análisis de correlaciones:** Evaluar las correlaciones entre diferentes parámetros para identificar posibles fuentes de contaminación.
-- **Clasificación de calidad del agua:** Utilizar índices de calidad del agua (ICA) para clasificar las muestras en diferentes niveles de calidad.
+- **Análisis descriptivo:** Generar estadísticas descriptivas y visualizaciones..
+- **Análisis de correlaciones:** Evaluar las correlaciones entre diferentes variables.
+- **Clasificación de calidad del agua:** Utilizar el índice de calidad del agua (ICA) para clasificar las muestras.
 
 ## **Conclusiones**
-- **Identificación de parámetros críticos:** Los análisis identificaron parámetros como "coliformes fecales", "escherichia coli" y "microcistinas" como indicadores críticos de contaminación.
-- **Variabilidad temporal y espacial:** Se observaron variaciones significativas en la calidad del agua a lo largo del tiempo y entre diferentes estaciones de monitoreo, lo que sugiere la influencia de fuentes puntuales y difusas de contaminación.
-- **Recomendaciones para el monitoreo:** Los resultados destacan la importancia de un monitoreo continuo y detallado para detectar cambios en la calidad del agua y tomar medidas preventivas y correctivas adecuadas.
-
+- Se entreno un modelo que predijo resultados que varian del resultado real aproximadante +- 3.69. Lógicamente cuanto mas chico sea mucho mejor pero con la cantidad de datos que tenia, es un buen resultado dentro de todo.
 ---
 
-### **Requisitos**
-Para reproducir estos análisis, asegúrate de tener instaladas las siguientes dependencias:
-```bash
-pip install pandas numpy scikit-learn matplotlib transformers
+### **Recursos**
+- Los datos para el análisis del río de la plata son sacados de https://ciam.ambiente.gob.ar/repositorio.php?tid=1&stid=2&did=382# .
+- Los datos para el análisis de los tweets fueron recolectados mediante el siguiente scraper: https://www.bardeen.ai/scraper .
