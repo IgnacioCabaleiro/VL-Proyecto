@@ -11,7 +11,7 @@ El objetivo de este proyecto es analizar las respuestas a los tweets del municip
 - **Visualización:** Crear visualizaciones para mostrar las tendencias de críticas negativas a lo largo del tiempo y las palabras más comunes en los tweets.
 
 ## **Conclusiones**
-- El análisis de sentimiento y el modelado de temas permitieron identificar los principales problemas y preocupaciones de la gente. Por ejemplo, temas recurrentes como  impuestos, fumigación, iluminaria y limpieza fueron destacados en los tweets negativos.
+- El análisis de sentimiento y el modelado de temas permitieron identificar los principales problemas y preocupaciones de la gente. Por ejemplo, temas recurrentes como  impuestos, limpieza, iluminaria y limpieza fueron destacados en los tweets negativos.
 - Considerando que este anàlisis se hizo con aproximadamente 300 tweets se obtuvo un buen desarrollo y anàlisis pero logicamente cuanto mas datos haya mejor resultado se va a poder obtener.
 ---
 
